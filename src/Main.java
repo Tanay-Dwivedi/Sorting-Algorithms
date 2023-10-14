@@ -1,8 +1,13 @@
 import BubbleSort.BubbleSort;
+import BucketSort.BucketSort;
+import CountingSort.CountingSort;
+import HeapSort.HeapSort;
 import MergeSort.MergeSort;
 import QuickSort.QuickSort;
+import RadixSort.RadixSort;
 import SelectionSort.SelectionSort;
 import InsertionSort.InsertionSort;
+import ShellSort.ShellSort;
 
 import java.util.*;
 
@@ -62,11 +67,11 @@ public class Main {
             case 3 -> InsertionSort.insertionSort(arr);
             case 4 -> MergeSort.mergeSort(arr);
             case 5 -> QuickSort.quickSort(arr, 0, n - 1);
-            case 6 -> heapSort(arr);
-            case 7 -> countingSort(arr);
-            case 8 -> radixSort(arr);
-            case 9 -> bucketSort(arr);
-            case 10 -> shellSort(arr);
+            case 6 -> HeapSort.heapSort(arr);
+            case 7 -> CountingSort.countingSort(arr);
+            case 8 -> RadixSort.radixSort(arr);
+            case 9 -> BucketSort.bucketSort(arr);
+            case 10 -> ShellSort.shellSort(arr);
             case 11 -> cycleSort(arr);
             case 12 -> bogoSort(arr);
             case 13 -> gnomeSort(arr);
