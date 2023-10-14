@@ -1,3 +1,9 @@
+import BubbleSort.BubbleSort;
+import MergeSort.MergeSort;
+import QuickSort.QuickSort;
+import SelectionSort.SelectionSort;
+import InsertionSort.InsertionSort;
+
 import java.util.*;
 
 public class Main {
@@ -51,11 +57,11 @@ public class Main {
         int choice = input.nextInt();
 
         switch (choice) {
-            case 1 -> selectionSort(arr);
-            case 2 -> bubbleSort(arr);
-            case 3 -> insertionSort(arr);
-            case 4 -> mergeSort(arr);
-            case 5 -> quickSort(arr, 0, n - 1);
+            case 1 -> SelectionSort.selectionSort(arr);
+            case 2 -> BubbleSort.bubbleSort(arr);
+            case 3 -> InsertionSort.insertionSort(arr);
+            case 4 -> MergeSort.mergeSort(arr);
+            case 5 -> QuickSort.quickSort(arr, 0, n - 1);
             case 6 -> heapSort(arr);
             case 7 -> countingSort(arr);
             case 8 -> radixSort(arr);
