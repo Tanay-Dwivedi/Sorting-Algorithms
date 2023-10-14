@@ -58,7 +58,7 @@ public class Main {
         System.out.println("9- Bucket Sort");
         System.out.println("10- Shell Sort");
         System.out.println("11- Cycle sort");
-        System.out.println("12- Bogosort");
+        System.out.println("12- Bogo Sort");
         System.out.println("13- Gnome sort");
         System.out.println("14- Strand sort");
         System.out.println("15- Bitonic sort");
