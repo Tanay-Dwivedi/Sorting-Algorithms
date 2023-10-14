@@ -15,7 +15,7 @@ public class Main {
         }
 
         // Choose a sorting algorithm
-        System.out.println("\nChoose a sorting algorithm (1-20):");
+        System.out.println("\nChoose a sorting algorithm (1-30):");
         System.out.println("1- Selection sort");
         System.out.println("2- Bubble sort");
         System.out.println("3- Insertion sort");
@@ -60,6 +60,16 @@ public class Main {
             case 18 -> treeSort(arr);
             case 19 -> oddEvenSort(arr);
             case 20 -> threeWayMergeSort(arr);
+            case 21 -> stoogeSort(arr);
+            case 22 -> timSort(arr);
+            case 23 -> combSort(arr);
+            case 24 -> pigeonholeSort(arr);
+            case 25 -> cocktailShakerSort(arr);
+            case 26 -> selectionTreeSort(arr);
+            case 27 -> smoothSort(arr);
+            case 28 -> funnelSort(arr);
+            case 29 -> tournamentSort(arr);
+            case 30 -> topologicalSort(arr);
             default -> System.out.println("Invalid choice. No sorting performed.");
         }
 
