@@ -36,6 +36,17 @@ public class Main {
         System.out.println("18- Tree sort");
         System.out.println("19- Odd-Even sort");
         System.out.println("20- 3-way Merge sort");
+        System.out.println("21- Stooge sort");
+        System.out.println("22- Tim Sort");
+        System.out.println("23- Comb sort");
+        System.out.println("24- Pigeonhole sort");
+        System.out.println("25- Cocktail shaker sort");
+        System.out.println("26- Selection tree sort");
+        System.out.println("27- Smooth sort");
+        System.out.println("28- Funnel sort");
+        System.out.println("29- Tournament sort");
+        System.out.println("30- Topological sort");
+
         System.out.print("Enter your choice: ");
         int choice = input.nextInt();
 
