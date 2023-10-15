@@ -24,8 +24,8 @@ public class RadixSort {
         int[] count = new int[10]; // Counting array for digits 0-9
 
         // Count the occurrences of each digit at the current digit place
-        for (int i = 0; i < n; i++) {
-            int digit = (arr[i] / digitPlace) % 10;
+        for (int j : arr) {
+            int digit = (j / digitPlace) % 10;
             count[digit]++;
         }
 
