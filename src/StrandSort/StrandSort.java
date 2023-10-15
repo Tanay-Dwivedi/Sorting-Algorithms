@@ -1,17 +1,20 @@
 package StrandSort;
+
 import java.util.*;
+
 public class StrandSort {
 
-    public static void strandSort(int [] arr) {
+    public static void strandSort(int[] arr) {
         List<Integer> al = new ArrayList<>();
-        for(int aa:arr) {
+        for (int aa : arr) {
             al.add(aa);
         }
         ss(al);
-        for(int i=0; i<al.size(); i++) {
+        for (int i = 0; i < al.size(); i++) {
             arr[i] = al.get(i);
         }
     }
+
     public static void ss(List<Integer> ip) {
         // Create a sorted sublist with
         // the first item of the input list
