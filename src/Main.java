@@ -35,7 +35,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Input array from the user
+//         Input array from the user
         System.out.print("Enter the number of elements in the array: ");
         int n = input.nextInt();
         int[] arr = new int[n];
@@ -44,6 +44,9 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
+
+//        int [] arr = {5,4,3,2,1};
+//        int n = 5;
 
         // Choose a sorting algorithm
         System.out.println("\nChoose a sorting algorithm (1-30):");
@@ -86,7 +89,7 @@ public class Main {
             case 2 -> BubbleSort.bubbleSort(arr);
             case 3 -> InsertionSort.insertionSort(arr);
             case 4 -> MergeSort.mergeSort(arr);
-            case 5 -> QuickSort.quickSort(arr, 0, n - 1);
+            case 5 -> QuickSort.quickSort(arr);
             case 6 -> HeapSort.heapSort(arr);
             case 7 -> CountingSort.countingSort(arr);
             case 8 -> RadixSort.radixSort(arr);
@@ -98,7 +101,7 @@ public class Main {
             case 14 -> StrandSort.strandSort(arr);
             case 15 -> BitonicSort.bitonicSort(arr);
             case 16 -> PancakeSort.pancakeSort(arr);
-            case 17 -> SleepSort.sleepSort(arr);
+            case 17 -> SleepSort.sleepSort(arr); // TODO
             case 18 -> TreeSort.treeSort(arr);
             case 19 -> OddEvenSort.oddEvenSort(arr);
             case 20 -> ThreeWayMergeSort.threeWayMergeSort(arr);
