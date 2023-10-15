@@ -23,8 +23,8 @@ public class CountingSort {
         int[] output = new int[arr.length]; // Create an output array to store the sorted elements
 
         // Count the frequencies of each element in the input array
-        for (int i = 0; i < arr.length; i++) {
-            count[arr[i] - min]++;
+        for (int j : arr) {
+            count[j - min]++;
         }
 
         // Calculate the cumulative frequencies
