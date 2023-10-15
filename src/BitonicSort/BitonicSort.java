@@ -1,5 +1,7 @@
 package BitonicSort;
+
 import java.util.*;
+
 public class BitonicSort {
     public static void bitonicSort(int[] array) {
         if (array.length <= 1) {
