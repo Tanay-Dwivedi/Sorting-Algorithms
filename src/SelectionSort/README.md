@@ -78,7 +78,7 @@ regardless of the size of the array being sorted.
 2) **Small Datasets** : It's practical for sorting small arrays or lists, where its simplicity outweighs its
    inefficiency.
 
-3) **Teaching Complexity** : It helps demonstrate the concept of algorithm complexity and how sorting algorithms'
+3) **Teaching Complexity** : It helps demonstrate the concept of algorithm complexity and how sorting algorithms
    efficiency
    relates to input size.
 
@@ -91,4 +91,4 @@ regardless of the size of the array being sorted.
 
 <h2>Demonstration:-</h2>
 
-![Alt Text](relative/path/to/your.gif)
+![Sorting gif](selection_sort_anim.gif)
