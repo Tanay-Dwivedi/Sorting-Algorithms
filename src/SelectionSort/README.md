@@ -88,3 +88,7 @@ regardless of the size of the array being sorted.
 5) **Component in Other Algorithms** : It's integrated into more advanced sorting algorithms to handle smaller portions
    of data
    efficiently.
+
+<h2>Demonstration:-</h2>
+
+![Alt Text](relative/path/to/your.gif)
