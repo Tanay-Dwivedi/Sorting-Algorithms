@@ -90,7 +90,39 @@ regardless of the size of the array being sorted.
    efficiently.
 
 <h2>Demonstration:-</h2>
-
-[Code Explanation](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/blob/master/src/SelectionSort/code_explanation_file)
+<br>
 
 ![Sorting gif](selection_sort_anim.gif)
+
+<br>
+
+***Explanation of how the code works***:
+
+- The selectionSort method takes an array of integers (int[] arr) as input and
+  sorts it in ascending order.
+
+- The length of the input array is obtained and stored in the variable n.
+
+- The sorting process begins with a loop that iterates through the array. The outer
+  loop, controlled by the variable i, goes from 0 to n-1. It represents the current
+  index where the minimum element will be placed in the sorted portion of the array.
+
+- Inside the outer loop, an assumption is made that the element at index i is the
+  the minimum element in the unsorted portion of the array and this index is stored in
+  the variable minIndex.
+
+- A nested loop, controlled by the variable j, starts from i+1 and continues to n-1.
+  This loop is used to find the index of the minimum element in the remaining unsorted
+  portion of the array.
+
+- In the inner loop, a comparison is made between the element at index j and the element
+  at the current minIndex. If the element at index j is smaller, the minIndex is updated to j.
+
+- After finding the index of the minimum element in the unsorted portion, a swap is performed
+  between the element at index i and the minimum element. This places the minimum element at
+  the current index i, effectively expanding the sorted portion of the array by one element.
+
+- The process continues in the outer loop, where i is incremented, and the next minimum element
+  is found and placed in the appropriate position.
+
+- Once the entire array is iterated and the loop completes, the input array arr is sorted in ascending order.
