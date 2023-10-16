@@ -78,37 +78,46 @@ Heap Sort is a comparison-based sorting algorithm that leverages the properties 
 first builds a binary heap from the array and then repeatedly removes the maximum element from the heap and places
 it...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/HeapSort)
 
-
 <b>7) Counting Sort:</b>
 
-Counting Sort is a non-comparative sorting algorithm that works by counting the number of objects with distinct key values and using this information to place each element in the correct position. It's particularly efficient for integers or...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CountingSort)
-
+Counting Sort is a non-comparative sorting algorithm that works by counting the number of objects with distinct key
+values and using this information to place each element in the correct position. It's particularly efficient for
+integers or...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CountingSort)
 
 <b>8) Radix Sort:</b>
 
-Radix Sort is a non-comparative integer sorting algorithm that processes elements digit by digit, from the least significant to the most significant. It's particularly useful for sorting...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/RadixSort)
-
+Radix Sort is a non-comparative integer sorting algorithm that processes elements digit by digit, from the least
+significant to the most significant. It's particularly useful for sorting...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/RadixSort)
 
 <b>9) Bucket Sort:</b>
 
-Bucket Sort is a sorting algorithm that distributes elements into a number of buckets, sorts each bucket, and then concatenates the buckets to produce the sorted result. It's effective when...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BucketSort)
-
+Bucket Sort is a sorting algorithm that distributes elements into a number of buckets, sorts each bucket, and then
+concatenates the buckets to produce the sorted result. It's effective when...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BucketSort)
 
 <b>10) Shell Sort:</b>
 
-Shell Sort is an extension of Insertion Sort that allows the comparison of elements that are far apart, effectively reducing the amount of shifting required. It starts with a large gap size and gradually reduces the gap until the entire array is...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/ShellSort)
-
+Shell Sort is an extension of Insertion Sort that allows the comparison of elements that are far apart, effectively
+reducing the amount of shifting required. It starts with a large gap size and gradually reduces the gap until the entire
+array is...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/ShellSort)
 
 <b>11) Cycle Sort:</b>
 
-Cycle Sort is an in-place, unstable sorting algorithm that minimizes the number of writes to the data. It identifies cycles within the data and rotates each cycle to its correct position, iteratively reducing the number of misplaced elements until the entire array is...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CycleSort)
-
+Cycle Sort is an in-place, unstable sorting algorithm that minimizes the number of writes to the data. It identifies
+cycles within the data and rotates each cycle to its correct position, iteratively reducing the number of misplaced
+elements until the entire array is...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CycleSort)
 
 <b>12) Bogo Sort:</b>
 
-Bogosort, often humorously referred to as "stupid sort," is an intentionally inefficient and random sorting algorithm. It works by repeatedly shuffling the elements randomly until they happen to be in sorted order. Bogosort is neither practical nor efficient and is...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BogoSort)
-
+Bogosort, often humorously referred to as "stupid sort," is an intentionally inefficient and random sorting algorithm.
+It works by repeatedly shuffling the elements randomly until they happen to be in sorted order. Bogosort is neither
+practical nor efficient and is...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BogoSort)
 
 <b>13) Gnome Sort:</b>
 
-Gnome Sort is a simple sorting algorithm that works by repeatedly comparing adjacent elements and swapping them if they are in the wrong order. It is named after the behavior of a garden gnome who sorts pots in a row, moving backward to check and swap pots as...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/GnomeSort)
+Gnome Sort is a simple sorting algorithm that works by repeatedly comparing adjacent elements and swapping them if they
+are in the wrong order. It is named after the behavior of a garden gnome who sorts pots in a row, moving backward to
+check and swap pots as...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/GnomeSort)
