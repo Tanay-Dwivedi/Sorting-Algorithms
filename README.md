@@ -45,7 +45,8 @@ sorting methods empower us to streamline data and access it with ease.
 <b>1) Selection Sort:</b>
 
 Selection Sort is a straightforward sorting algorithm that works by repeatedly finding the minimum element from the
-unsorted portion of the array and moving it to the sorted portion. It divides...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/SelectionSort)
+unsorted portion of the array and moving it to the sorted portion. It divides...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/SelectionSort)
 
 <b>2) Bubble Sort:</b>
 
@@ -74,12 +75,14 @@ more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/Quick
 <b>6) Heap Sort:</b>
 
 Heap Sort is a comparison-based sorting algorithm that leverages the properties of a binary heap data structure. It
-first builds a binary heap from the array and then repeatedly removes the maximum...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/HeapSort)
+first builds a binary heap from the array and then repeatedly removes the maximum...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/HeapSort)
 
 <b>7) Counting Sort:</b>
 
 Counting Sort is a non-comparative sorting algorithm that works by counting the number of objects with distinct key
-values and using this information to place each element in the correct...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CountingSort)
+values and using this information to place each element in the correct...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CountingSort)
 
 <b>8) Radix Sort:</b>
 
@@ -96,7 +99,8 @@ more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/Bucke
 <b>10) Shell Sort:</b>
 
 Shell Sort is an extension of Insertion Sort that allows the comparison of elements that are far apart, effectively
-reducing the amount of shifting required. It starts with a large gap size and...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/ShellSort)
+reducing the amount of shifting required. It starts with a large gap size and...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/ShellSort)
 
 <b>11) Cycle Sort:</b>
 
@@ -113,12 +117,14 @@ more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BogoS
 <b>13) Gnome Sort:</b>
 
 Gnome Sort is a simple sorting algorithm that works by repeatedly comparing adjacent elements and swapping them if they
-are in the wrong order. It is named after the behavior of a garden gnome...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/GnomeSort)
+are in the wrong order. It is named after the behavior of a garden gnome...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/GnomeSort)
 
 <b>14) Strand Sort:</b>
 
 Strand Sort is a relatively rare sorting algorithm that repeatedly pulls sorted elements from one list and merges them
-with another list until all elements are sorted. It's an example of merge-based sorting...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/StrandSort)
+with another list until all elements are sorted. It's an example of merge-based sorting...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/StrandSort)
 
 <b>15) Bitonic Sort:</b>
 
@@ -141,7 +147,8 @@ _Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src
 <b>18) Tree Sort:</b>
 
 Tree Sort is a sorting algorithm that builds a binary search tree from the elements in the input array and then
-traverses the tree in order to retrieve the sorted values. It has a good average time...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/TreeSort)
+traverses the tree in order to retrieve the sorted values. It has a good average time...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/TreeSort)
 
 <b>19) Odd-Even Sort:</b>
 
@@ -158,7 +165,8 @@ more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/Three
 <b>21) Stooge Sort:</b>
 
 Stooge Sort is a recursive sorting algorithm that sorts an array by recursively sorting the first two-thirds and last
-two-thirds, and then the first two-thirds again. It's inefficient and generally not used...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/StoogeSort)
+two-thirds, and then the first two-thirds again. It's inefficient and generally not used...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/StoogeSort)
 
 <b>22) Tim Sort:</b>
 
