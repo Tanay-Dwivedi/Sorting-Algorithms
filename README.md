@@ -121,3 +121,11 @@ more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BogoS
 Gnome Sort is a simple sorting algorithm that works by repeatedly comparing adjacent elements and swapping them if they
 are in the wrong order. It is named after the behavior of a garden gnome who sorts pots in a row, moving backward to
 check and swap pots as...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/GnomeSort)
+
+<b>14) Strand Sort:</b>
+
+Strand Sort is a relatively rare sorting algorithm that repeatedly pulls sorted elements from one list and merges them with another list until all elements are sorted. It's an example of a merge-based sorting algorithm that efficiently handles...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/StrandSort)
+
+<b>15) Bitonic Sort:</b>
+
+Bitonic Sort is a parallel sorting algorithm that works by first constructing a bitonic sequence from the input data and then repeatedly splitting and merging the sequence until it is sorted. It's particularly well-suited for parallel processing environments, making it...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BitonicSort)
