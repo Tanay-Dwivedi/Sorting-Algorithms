@@ -182,33 +182,46 @@ more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CombS
 
 <b>24) Pigeonhole Sort:</b>
 
-Pigeonhole Sort is a non-comparative sorting algorithm that works by distributing elements into "pigeonholes" or "buckets" based on their values. It is suitable for sorting data when the range of possible values is relatively small compared to the number of...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/PigeonholeSort)
-
+Pigeonhole Sort is a non-comparative sorting algorithm that works by distributing elements into "pigeonholes" or "
+buckets" based on their values. It is suitable for sorting data when the range of possible values is relatively small
+compared to the number of...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/PigeonholeSort)
 
 <b>25) Cocktail Shaker Sort:</b>
 
-Cocktail Shaker Sort, also known as Bidirectional Bubble Sort, is a variation of the Bubble Sort algorithm. It works by sorting elements by moving through the list in both directions, comparing and swapping adjacent elements as necessary. This bidirectional approach...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CocktailShakerSort)
-
+Cocktail Shaker Sort, also known as Bidirectional Bubble Sort, is a variation of the Bubble Sort algorithm. It works by
+sorting elements by moving through the list in both directions, comparing and swapping adjacent elements as necessary.
+This bidirectional approach...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CocktailShakerSort)
 
 <b>26) Selection Tree Sort:</b>
 
-Selection Tree Sort is a sorting algorithm that builds a binary search tree from the elements in the input array. It then traverses the tree in an in-order fashion, extracting the elements in sorted order. This approach is similar to Tree Sort but uses a...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/SelectionTreeSort)
-
+Selection Tree Sort is a sorting algorithm that builds a binary search tree from the elements in the input array. It
+then traverses the tree in an in-order fashion, extracting the elements in sorted order. This approach is similar to
+Tree Sort but uses a...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/SelectionTreeSort)
 
 <b>27) Smooth Sort:</b>
 
-Smooth Sort is an adaptive sorting algorithm that combines concepts from Heap Sort and Merge Sort. It uses the smoothsort tree data structure to build a heap and then sorts the elements efficiently. Smooth Sort is known for its ability to adapt to the distribution...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/SmoothSort)
-
+Smooth Sort is an adaptive sorting algorithm that combines concepts from Heap Sort and Merge Sort. It uses the
+smoothsort tree data structure to build a heap and then sorts the elements efficiently. Smooth Sort is known for its
+ability to adapt to the distribution...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/SmoothSort)
 
 <b>28) Funnel Sort:</b>
 
-Funnel Sort is a cache-efficient sorting algorithm that focuses on reducing cache misses during sorting. It uses a divide-and-conquer strategy to sort data, with the primary goal of improving memory access patterns and performance...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/FunnelSort)
-
+Funnel Sort is a cache-efficient sorting algorithm that focuses on reducing cache misses during sorting. It uses a
+divide-and-conquer strategy to sort data, with the primary goal of improving memory access patterns and performance...[
+_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/FunnelSort)
 
 <b>29) Flash Sort:</b>
 
-Flash Sort is a distribution-based sorting algorithm that works by dividing the data into partitions, classifying the elements into buckets, and then sorting each bucket independently. It is known...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/FlashSort)
+Flash Sort is a distribution-based sorting algorithm that works by dividing the data into partitions, classifying the
+elements into buckets, and then sorting each bucket independently. It is known...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/FlashSort)
 
 <b>30) Block Sort:</b>
 
-Block Sort is a sorting algorithm that breaks the input data into fixed-size blocks, sorts each block in memory, and then merges these blocks to produce the sorted result. It is often used for external...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BlockSort)
+Block Sort is a sorting algorithm that breaks the input data into fixed-size blocks, sorts each block in memory, and
+then merges these blocks to produce the sorted result. It is often used for external...[_Read
+more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BlockSort)
