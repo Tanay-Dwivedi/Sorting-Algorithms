@@ -134,3 +134,42 @@ Bitonic Sort is a parallel sorting algorithm that works by first constructing a 
 then repeatedly splitting and merging the sequence until it is sorted. It's particularly well-suited for parallel
 processing environments, making it...[_Read
 more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/BitonicSort)
+
+<b>16) Pancake Sort:</b>
+
+Pancake Sorting is a combinatorial sorting algorithm that works by sorting a disordered stack of pancakes in as few flips as possible. It focuses on flipping a section of the stack in the correct order to gradually sort the entire stack. While Pancake Sorting is...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/PancakeSort)
+
+
+<b>17) Sleep Sort:</b>
+
+Sleep Sort is a humorous and highly inefficient sorting algorithm that relies on threads and sleep intervals. It creates a thread for each element in the array and sorts the elements based on how long each thread sleeps. While it serves...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/SleepSort)
+
+
+<b>18) Tree Sort:</b>
+
+Tree Sort is a sorting algorithm that builds a binary search tree from the elements in the input array and then traverses the tree in order to retrieve the sorted values. It has good average time complexity, but its performance can degrade...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/TreeSort)
+
+
+<b>19) Odd-Even Sort:</b>
+
+Odd-Even Sort, also known as Brick Sort, is a relatively simple sorting algorithm that compares and swaps adjacent pairs of elements, alternating between odd and even indices. It repeats this process until...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/OddEvenSort)
+
+
+<b>20) 3-Way Merge Sort::</b>
+
+3-Way Merge Sort is a variation of the classic Merge Sort that divides the input into three parts instead of two. It recursively sorts these sub-arrays and then combines them into the final sorted result. This approach can be more efficient for large...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/ThreeWayMergeSort)
+
+
+<b>21) Stooge Sort:</b>
+
+Stooge Sort is a recursive sorting algorithm that sorts an array by recursively sorting the first two-thirds and last two-thirds, and then the first two-thirds again. It's inefficient and generally not used for practical sorting tasks but is...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/StoogeSort)
+
+
+<b>22) Tim Sort:</b>
+
+Timsort is a hybrid sorting algorithm derived from Merge Sort and Insertion Sort. It divides the data into small chunks, sorts them using Insertion Sort, and then merges them efficiently using a modified form of...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/TimSort)
+
+
+<b>23) Comb Sort:</b>
+
+Comb Sort is a variation of Bubble Sort that works by comparing and swapping elements with a gap that decreases with each pass. It is particularly efficient for data with varying values and is a simple yet effective...[_Read more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/CombSort)
