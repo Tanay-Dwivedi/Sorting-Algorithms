@@ -75,7 +75,7 @@ more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/Quick
 <b>6) Heap Sort:</b>
 
 Heap Sort is a comparison-based sorting algorithm that leverages the properties of a binary heap data structure. It
-first builds a binary heap from the array and then repeatedly removes the maximum...[_Read
+first builds a binary heap from the array and then repeatedly removes...[_Read
 more_](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/tree/master/src/HeapSort)
 
 <b>7) Counting Sort:</b>
