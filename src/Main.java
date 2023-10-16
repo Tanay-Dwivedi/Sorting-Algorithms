@@ -1,4 +1,5 @@
 import BitonicSort.BitonicSort;
+import BlockSort.BlockSort;
 import BogoSort.BogoSort;
 import BubbleSort.BubbleSort;
 import BucketSort.BucketSort;
@@ -6,6 +7,7 @@ import CocktailShakerSort.CocktailShakerSort;
 import CombSort.CombSort;
 import CountingSort.CountingSort;
 import CycleSort.CycleSort;
+import FlashSort.FlashSort;
 import FunnelSort.FunnelSort;
 import GnomeSort.GnomeSort;
 import HeapSort.HeapSort;
@@ -25,8 +27,6 @@ import StoogeSort.StoogeSort;
 import StrandSort.StrandSort;
 import ThreeWayMergeSort.ThreeWayMergeSort;
 import TimSort.TimSort;
-import TopologicalSort.TopologicalSort;
-import TournamentSort.TournamentSort;
 import TreeSort.TreeSort;
 
 import java.util.*;
@@ -44,9 +44,6 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
-
-//        int [] arr = {5,4,3,2,1};
-//        int n = 5;
 
         // Choose a sorting algorithm
         System.out.println("\nChoose a sorting algorithm (1-30):");
@@ -78,8 +75,8 @@ public class Main {
         System.out.println("26- Selection tree sort");
         System.out.println("27- Smooth sort");
         System.out.println("28- Funnel sort");
-        System.out.println("29- Tournament sort");
-        System.out.println("30- Topological sort");
+        System.out.println("29- Flash Sort");
+        System.out.println("30- Block sort");
 
         System.out.print("Enter your choice: ");
         int choice = input.nextInt();
@@ -101,7 +98,7 @@ public class Main {
             case 14 -> StrandSort.strandSort(arr);
             case 15 -> BitonicSort.bitonicSort(arr);
             case 16 -> PancakeSort.pancakeSort(arr);
-            case 17 -> SleepSort.sleepSort(arr); // TODO
+            case 17 -> SleepSort.sleepSort(arr);
             case 18 -> TreeSort.treeSort(arr);
             case 19 -> OddEvenSort.oddEvenSort(arr);
             case 20 -> ThreeWayMergeSort.threeWayMergeSort(arr);
@@ -113,8 +110,8 @@ public class Main {
             case 26 -> SelectionTreeSort.selectionTreeSort(arr);
             case 27 -> SmoothSort.smoothSort(arr);
             case 28 -> FunnelSort.funnelSort(arr);
-            case 29 -> TournamentSort.tournamentSort(arr);
-            case 30 -> TopologicalSort.topologicalSort(arr);
+            case 29 -> FlashSort.flashSort(arr);
+            case 30 -> BlockSort.blockSort(arr);
             default -> System.out.println("Invalid choice. No sorting performed.");
         }
 
