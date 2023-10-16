@@ -91,4 +91,6 @@ regardless of the size of the array being sorted.
 
 <h2>Demonstration:-</h2>
 
+[Code Explanation](https://github.com/Tanay-Dwivedi/Sorting-Algorithms/blob/master/src/SelectionSort/code_explanation_file)
+
 ![Sorting gif](selection_sort_anim.gif)
