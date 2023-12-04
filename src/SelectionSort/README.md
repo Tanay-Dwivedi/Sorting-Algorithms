@@ -89,11 +89,6 @@ regardless of the size of the array being sorted.
    of data
    efficiently.
 
-<h2>Demonstration:-</h2>
-<br>
-
-![Sorting gif](selection_sort_anim.gif)
-
 <br>
 
 ***Explanation of how the code works***:
