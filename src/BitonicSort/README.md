@@ -104,31 +104,59 @@ different computing environments.
 
 ***Explanation of how the code works***:
 
-- The selectionSort method takes an array of integers (int[] arr) as input and
-  sorts it in ascending order.
+- Method bitonicSort:
+  The bitonicSort method serves as the entry point for the Bitonic Sort algorithm. It accepts an array of integers as
+  input. A base case is established to handle scenarios where the length of the input array is 1 or less, in which case
+  the array is already considered sorted, and the method returns. The array is then divided into two halves: leftHalf
+  and
+  rightHalf. The algorithm proceeds to recursively call bitonicSort on these two halves. Subsequently, the merge method
+  is
+  invoked to combine and merge the sorted halves into a single sorted array.
 
-- The length of the input array is obtained and stored in the variable n.
 
-- The sorting process begins with a loop that iterates through the array. The outer
-  loop, controlled by the variable i, goes from 0 to n-1. It represents the current
-  index where the minimum element will be placed in the sorted portion of the array.
+- Method merge:
+  Within the merge method, three arrays are provided as input: the original array (array), and the two sorted halves (
+  leftHalf and rightHalf). The method initializes three pointers (i, j, and k) to track the positions in the left half,
+  right half, and the merged array, respectively. A while loop is employed to iterate through the left and right halves
+  until either is exhausted. During each iteration, the elements at the current positions of leftHalf and rightHalf are
+  compared, and the smaller element is added to the merged array. The pointers are then incremented accordingly. After
+  the
+  loop, any remaining elements from the left and right halves are added to the merged array.
 
-- Inside the outer loop, an assumption is made that the element at index i is the
-  the minimum element in the unsorted portion of the array and this index is stored in
-  the variable minIndex.
 
-- A nested loop, controlled by the variable j, starts from i+1 and continues to n-1.
-  This loop is used to find the index of the minimum element in the remaining unsorted
-  portion of the array.
+- Algorithm Overview:
+  The Bitonic Sort algorithm, implemented through the bitonicSort method, is characterized by its parallel sorting
+  approach. The algorithm follows a divide-and-conquer strategy, where the input array is recursively divided, sorted,
+  and
+  then merged. The merging phase ensures that the final array exhibits a bitonic order. The inclusion of a base case is
+  crucial, preventing further recursion when the size of the array becomes 1 or less, as a single element is inherently
+  sorted.
 
-- In the inner loop, a comparison is made between the element at index j and the element
-  at the current minIndex. If the element at index j is smaller, the minIndex is updated to j.
 
-- After finding the index of the minimum element in the unsorted portion, a swap is performed
-  between the element at index i and the minimum element. This places the minimum element at
-  the current index i, effectively expanding the sorted portion of the array by one element.
+- Array Manipulation:
+  Array manipulation within the algorithm is facilitated through the use of methods from the Arrays class, such as
+  copyOf
+  and copyOfRange. These methods efficiently create left and right halves during the divide phase of the algorithm,
+  contributing to the overall simplicity and effectiveness of the implementation.
 
-- The process continues in the outer loop, where i is incremented, and the next minimum element
-  is found and placed in the appropriate position.
 
-- Once the entire array is iterated and the loop completes, the input array arr is sorted in ascending order.
+- Base Case:
+  The incorporation of a base case in the bitonicSort method is vital for terminating the recursion when the size of the
+  array becomes trivial (1 or less). In such cases, the algorithm recognizes the array as already sorted, and further
+  recursive calls are unnecessary.
+
+
+- Merging Process:
+  The merging process, executed by the merge method, mirrors the standard merge operation seen in other sorting
+  algorithms
+  like merge sort. Elements from the left and right halves are systematically compared and added to the merged array,
+  ensuring the preservation of the bitonic order. This process is fundamental to achieving the overall sorting objective
+  of the Bitonic Sort algorithm.
+
+
+- Implementation Focus:
+  The provided Java code embodies a clear and concise implementation of the Bitonic Sort algorithm. With a focus on
+  efficient array manipulation and a straightforward recursive structure, the code navigates the complexities of sorting
+  through division, recursion, and merging. The merge method plays a pivotal role in creating a bitonic sequence from
+  the
+  sorted halves, solidifying the algorithm's effectiveness in achieving a sorted output.
