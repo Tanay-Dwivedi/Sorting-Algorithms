@@ -1,5 +1,4 @@
 package BucketSort;
-import java.util.*;
 public class BucketSort {
     public static void bucketSort(int[] arr) {
         if (arr == null || arr.length <= 1) {
