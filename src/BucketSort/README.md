@@ -1,4 +1,4 @@
-#  Bitonic Sort
+#  Bucket Sort
 -----
 
 ## Definition:-
