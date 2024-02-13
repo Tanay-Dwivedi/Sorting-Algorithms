@@ -42,8 +42,6 @@ The space complexity of Comb Sort is O(1), indicating that the algorithm require
 
 ## Uses:-
 
-Here are five common uses of Comb Sort:
-
 1. **Small to Medium-sized Datasets**: Comb Sort is suitable for sorting small to medium-sized datasets where its simplicity and moderate efficiency offer a practical solution.
 
 2. **Sorting Nearly Sorted Arrays**: It performs well on nearly sorted arrays or arrays with small disorderings, efficiently correcting minor discrepancies.
