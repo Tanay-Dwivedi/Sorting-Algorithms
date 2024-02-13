@@ -1,4 +1,4 @@
-#  Bitonic Sort
+#  Bubble Sort
 -----
 
 ## Definition:-
