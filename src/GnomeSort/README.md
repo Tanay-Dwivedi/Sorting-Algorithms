@@ -1,4 +1,4 @@
-#  Bitonic Sort
+#  Gnome Sort
 -----
 
 ## Definition:-
