@@ -1,4 +1,4 @@
-#  Bitonic Sort
+#  Pancake Sort
 -----
 
 ## Definition:-
