@@ -1,4 +1,4 @@
-# Pancake Sort
+# Pigeonhole Sort
 -----
 
 ## Definition:-
