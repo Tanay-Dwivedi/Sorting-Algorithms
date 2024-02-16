@@ -1,123 +1,125 @@
 # Selection Sort
+-----
 
-<h2>Definition:-</h2>
+## Definition:-
 
-Selection Sort is a straightforward sorting algorithm that works by repeatedly finding the minimum element from the
-unsorted portion of the array and moving it to the sorted portion. It divides the input array into two parts, one sorted
-and one unsorted, and gradually builds the sorted portion by selecting the smallest element each time. This process
-continues until the entire array is sorted.
+Selection sort is a simple comparison-based sorting algorithm that divides the input array into two sub-arrays: a sorted sub-array and an unsorted sub-array. It repeatedly selects the smallest (or largest) element from the unsorted sub-array and swaps it with the element at the beginning of the unsorted sub-array.
+This process continues until the entire array is sorted. Selection sort has a time complexity of \(O(n^2)\), making it inefficient for large datasets, but it is easy to implement and requires minimal additional memory, as it performs sorting in-place.
 
-<h2>Time Complexity Analysis:-</h2>
+-----
 
-The time complexity of Selection Sort is relatively straightforward to analyze. It is a comparison-based sorting
-algorithm, and its performance primarily depends on the number of comparisons and swaps it makes.
+## Time Complexity Analysis:-
 
-Here's a breakdown of the time complexity of Selection Sort:
+Selection sort has a time complexity of \(O(n^2)\), where \(n\) is the number of elements in the array. This is because it involves nested loops, iterating over the entire array to find the minimum element in each pass and performing \(n\) iterations for \(n\) elements in the array. Despite its simplicity, selection sort's time complexity makes it inefficient for sorting large datasets.
 
-***- Number of Comparisons*** : In the worst case, Selection Sort performs roughly n^2 / 2 comparisons, where "n" is the
-number
-of elements in the array. This is because it compares each element with all remaining elements, even if they are already
-in the correct position.
+-----
 
-***- Number of Swaps*** : Selection Sort performs a maximum of "n" swaps. This is because for each pass, it selects the
-minimum (
-or maximum) element and swaps it with the element at the beginning of the unsorted portion. This process is repeated for
-all elements in the array.
+## Space Complexity Analysis:-
 
-**• Best-case Time Complexity** : O(n^2)
+Selection sort has a space complexity of \(O(1)\) because it operates directly on the input array without requiring additional space proportional to the size of the input. It sorts the array in place by swapping elements, so the amount of extra space used remains constant, regardless of the size of the input array. Therefore, selection sort is memory-efficient and suitable for situations where memory usage is a concern.
 
-**• Average-case Time Complexity** : O(n^2)
+-----
 
-**• Worst-case Time Complexity** : O(n^2)
+## Advantages:-
 
-<h2>Space Complexity Analysis:-</h2>
+1. **Simplicity**: Selection sort is easy to understand and implement due to its straightforward logic and minimalistic approach.
 
-It primarily depends on the amount of additional memory required for temporary variables and indices used during the
-sorting process.
+2. **In-Place Sorting**: It sorts the array in place, requiring only a constant amount of additional memory, making it memory-efficient, especially for large datasets.
 
-Selection Sort is an in-place sorting algorithm, which means it does not require additional memory proportional to the
-size of the input data. It uses a constant amount of extra space for variables, indices, and temporary storage,
-regardless of the size of the array being sorted.
+3. **Stable**: Selection sort is a stable sorting algorithm, meaning it preserves the relative order of equal elements during sorting, which can be advantageous in certain scenarios.
 
-**• Space Complexity** : O(1)
+----
 
-<h2>Advantages:-</h2>
+## Dis-advantages:-
 
-1) **Simplicity** : Selection Sort is one of the simplest sorting algorithms to understand and implement. It's a good
-   starting
-   point for learning about sorting algorithms and computer science concepts.
+1. **Inefficiency**: Selection sort has a time complexity of \(O(n^2)\), making it inefficient for sorting large datasets, as it requires a quadratic number of comparisons and swaps.
 
-2) **In-Place Sorting** : Selection Sort is an in-place sorting algorithm, meaning it doesn't require additional memory
-   for
-   sorting. It is memory-efficient, which can be crucial in situations with limited memory resources.
+2. **Lack of Adaptability**: It does not adapt to the input data, meaning it performs the same number of comparisons and swaps regardless of whether the input is partially sorted or completely unsorted.
 
-3) **Stability** : Selection Sort is a stable sorting algorithm. It means that the relative order of equal elements
-   remains the
-   same after sorting, which is important in some applications.
+3. **Unsuitable for Large Datasets**: Due to its quadratic time complexity, selection sort becomes increasingly inefficient as the size of the dataset grows, making it unsuitable for sorting large arrays compared to more efficient algorithms like merge sort or quick sort.
 
-<h2>Dis-advantages:-</h2>
+-----
 
-1) **Inefficiency** : Selection Sort has a time complexity of O(n^2), making it inefficient for large datasets. As the
-   dataset
-   size increases, the number of comparisons and swaps grows quadratically, resulting in slow performance.
+## Uses:-
 
-2) **Lack of Adaptivity** : Selection Sort doesn't adapt to the initial order of elements. It always performs the same
-   number of
-   comparisons and swaps regardless of whether the data is partially sorted or completely unsorted.
+1. **Educational Use**: Often taught in computer science courses for its simplicity.
 
-3) **No Best-Case Improvement** : Even if the array is already sorted, Selection Sort will make the same number of
-   comparisons
-   as in the worst-case scenario. This is a significant disadvantage when compared to some other sorting algorithms with
-   better best-case performance.
+2. **Small Datasets**: Suitable for sorting small arrays due to its simplicity.
 
-<h2>Uses:-</h2>
+3. **Embedded Systems**: Used in environments with limited resources.
 
-1) **Educational Tool** : Selection Sort is commonly used in computer science education to teach sorting algorithms and
-   algorithm analysis.
+4. **Baseline Testing**: Can serve as a baseline for testing other sorting algorithms.
 
-2) **Small Datasets** : It's practical for sorting small arrays or lists, where its simplicity outweighs its
-   inefficiency.
+5. **Online Sorting**: Applied in scenarios requiring real-time sorting with minimal overhead.
 
-3) **Teaching Complexity** : It helps demonstrate the concept of algorithm complexity and how sorting algorithms
-   efficiency
-   relates to input size.
+-----
 
-4) **Debugging and Testing** : Selection Sort can be used for quick and simple sorting during debugging and testing
-   processes.
+## Explanation of how the code works:
 
-5) **Component in Other Algorithms** : It's integrated into more advanced sorting algorithms to handle smaller portions
-   of data
-   efficiently.
+```java
+public class SelectionSort {
+```
 
-<br>
+This declares a class named `SelectionSort`. It encapsulates the selection sort algorithm.
 
-***Explanation of how the code works***:
+```java
+    public static void selectionSort(int[] arr) {
+```
 
-- The selectionSort method takes an array of integers (int[] arr) as input and
-  sorts it in ascending order.
+This line defines a method `selectionSort`, which takes an array of integers `arr` as input and returns void. This method will perform the selection sort algorithm on the input array.
 
-- The length of the input array is obtained and stored in the variable n.
+```java
+        int n = arr.length;
+```
 
-- The sorting process begins with a loop that iterates through the array. The outer
-  loop, controlled by the variable i, goes from 0 to n-1. It represents the current
-  index where the minimum element will be placed in the sorted portion of the array.
+This initializes an integer `n` with the length of the input array `arr`, representing the number of elements in the array.
 
-- Inside the outer loop, an assumption is made that the element at index i is the
-  the minimum element in the unsorted portion of the array and this index is stored in
-  the variable minIndex.
+```java
+        for (int i = 0; i < n - 1; i++) {
+```
 
-- A nested loop, controlled by the variable j, starts from i+1 and continues to n-1.
-  This loop is used to find the index of the minimum element in the remaining unsorted
-  portion of the array.
+This line starts a loop that iterates over the array from index 0 to `n - 1`. This loop represents each pass of the selection sort algorithm.
 
-- In the inner loop, a comparison is made between the element at index j and the element
-  at the current minIndex. If the element at index j is smaller, the minIndex is updated to j.
+```java
+            int minIndex = i;
+```
 
-- After finding the index of the minimum element in the unsorted portion, a swap is performed
-  between the element at index i and the minimum element. This places the minimum element at
-  the current index i, effectively expanding the sorted portion of the array by one element.
+Inside the loop, `minIndex` is initialized to the current value of `i`, assuming that the current index `i` contains the minimum value.
 
-- The process continues in the outer loop, where i is incremented, and the next minimum element
-  is found and placed in the appropriate position.
+```java
+            for (int j = i + 1; j < n; j++) {
+```
 
-- Once the entire array is iterated and the loop completes, the input array arr is sorted in ascending order.
+This nested loop iterates over the unsorted portion of the array, starting from index `i + 1`, to find the index of the minimum element.
+
+```java
+                if (arr[j] < arr[minIndex]) {
+```
+
+Within the nested loop, it checks if the element at index `j` is less than the element at `minIndex`. If so, it updates `minIndex` to `j`.
+
+```java
+                    minIndex = j;
+                }
+            }
+```
+
+At the end of the inner loop, `minIndex` will contain the index of the minimum element in the unsorted portion of the array.
+
+```java
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
+```
+
+After finding the minimum element's index, the code swaps the element at index `i` with the minimum element found at index `minIndex`.
+
+```java
+        }
+    }
+}
+```
+
+This concludes the `selectionSort` method and the `SelectionSort` class definition. The method sorts the input array in ascending order using the selection sort algorithm.
+
+-----
